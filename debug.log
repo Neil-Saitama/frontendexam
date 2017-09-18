@@ -1,0 +1,18 @@
+[0917/230031.671:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0917/230031.967:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0917/230031.970:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0917/230036.087:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0918/115121.032:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/115121.264:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/115121.266:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0918/115126.397:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0918/155511.456:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/155511.816:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0918/155511.989:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0918/160738.861:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/160738.925:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0918/160738.950:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0918/171909.723:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/171910.004:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0918/171910.006:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0918/171912.138:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

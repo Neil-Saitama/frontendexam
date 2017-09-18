@@ -1,0 +1,27 @@
+extends general
+
+block content
+  
+  .list-news
+    div#wellcareblog.section
+      .news-item
+        each listblogss in blog.orderBy('date', 'desc').slice(0, 15)        
+          .news-items
+            .row
+              div.col-sm-5.text-left 
+                div.lead-sec
+                  .lead-image
+                    a.lead-tag(href=listblogss.permalink)
+                      //- img.img-responsive(src=listblogss.thumbnail)
+                      img.img-responsive(src="/img/blogImg1.jpg")
+
+              div.col-sm-7.text-left 
+                div.blog-det 
+                  .published
+                    i(class="fa fa-clock-o", aria-hidden="true")
+                    date= dateFormat(listblogss.date, 'YYYY, MM, DD') 
+                    //- a(href=listblogss.permalink)= listblogss.title
+                  a.titleblog(href=listblogss.permalink) サンプ丿レテキス トサンプ丿レテキス トサンプ丿レテキス トサン プ丿レテキストサンプ丿レテキス ト
+                  .short-desc
+                    //- p= listblogss.shortdesc
+                    p サンブ丿レテキス トサンプ丿レテキス 卜サンプ丿レテキストサンブ丿レテキス トサンブ丿レテ キス トサンブ丿レテキス トサンプ丿レテキス トサンプ丿レテキス トサンプ丿レテキス ト・"

@@ -1,0 +1,17 @@
+extends general
+
+block content
+  #post-blog
+    #bodyblog
+      .lead
+        //- img(src=entry.banner)
+        img(src="https://media-massage.net/blog/iioffice_cebu/iioffice-cebu-room2.jpg")
+      h1.titleblog_inner=entry.title
+      p.inner-blg-shrtdesc= entry.shortdesc
+      h6
+        i.fa.fa-tags(aria-hidden='true')
+        !=entry.leadtag
+      div.addthis_inline_share_toolbox        
+      div.blog-body-inner
+        != entry.body
+      div#disqus_thread

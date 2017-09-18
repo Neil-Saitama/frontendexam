@@ -1,0 +1,29 @@
+{
+  "name": "myexam",
+  "description": "frontend examination",
+  "dependencies": {
+    "autoprefixer-stylus": "0.9.x",
+    "axis": "0.6.x",
+    "clean-urls": "^1.1.5",
+    "coffee-script": "1.x",
+    "css-pipeline": "0.3.x",
+    "dateformat": "^2.0.0",
+    "html-excerpt": "^0.1.0",
+    "jade": "1.x",
+    "js-pipeline": "0.2.x",
+    "jstransformer-marked": "1.x",
+    "marked": "0.3.x",
+    "moment": "^2.18.1",
+    "path": "^0.12.7",
+    "readdirp": "^2.1.0",
+    "roots-collections": "^0.3.3",
+    "roots-config": "0.0.2",
+    "roots-records": "^0.5.1",
+    "rupture": "0.6.x",
+    "sitemap-generator": "^7.2.3",
+    "sort-by": "^1.2.0",
+    "sort-object": "^3.0.2",
+    "stylus": "0.54.x",
+    "webriq-roots-rss-generator": "^2.0.2"
+  }
+}
